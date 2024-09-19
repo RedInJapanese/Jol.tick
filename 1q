@@ -1,0 +1,12 @@
+import pyautogui
+import time
+
+pyautogui.keyDown('alt')
+pyautogui.press('tab')
+
+pyautogui.keyUp('alt')
+
+
+for i in range(0, 20):
+    print("a pressed")
+    pyautogui.press('x')
